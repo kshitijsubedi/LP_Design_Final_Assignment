@@ -1,0 +1,12 @@
+/* .container {
+    padding-left: 30vh;
+    padding-right:30vh;
+    margin:0 auto;
+} */
+
+.sidePad {
+        padding-left: 30vh;
+          padding-right:30vh;
+          padding-top:3vh;
+          padding-bottom: 5vh;
+}

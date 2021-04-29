@@ -1,0 +1,99 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", Arial;
+  background-color: #fff;
+}
+
+.topnav {
+  overflow: hidden;
+  float:right;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 13px 25px;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 9px;
+  margin-left:1vw;
+}
+
+.topnav a:hover {
+  background: #63F4C8;
+background: -webkit-linear-gradient(top, #63F4C8, #48DACD);
+background: -moz-linear-gradient(top, #63F4C8, #48DACD);
+background: linear-gradient(to bottom, #63F4C8, #48DACD);
+  color:white;
+}
+
+.topnav a.active {
+  background: #63F4C8;
+background: -webkit-linear-gradient(top, #63F4C8, #48DACD);
+background: -moz-linear-gradient(top, #63F4C8, #48DACD);
+background: linear-gradient(to bottom, #63F4C8, #48DACD);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+  background: url(../img/bar.png) no-repeat;
+  height:30px;
+  width:30px;
+}
+
+.logo {
+  float: left;
+}
+
+.home {
+  text-align: center;
+  position: relative;
+  margin-top: 3vh;
+  height:75vh;
+  background: #63F4C8;
+background: -webkit-linear-gradient(top, #63F4C8, #48DACD);
+background: -moz-linear-gradient(top, #63F4C8, #48DACD);
+background: linear-gradient(to bottom, #63F4C8, #48DACD);
+}
+.redGrad {
+  background: #FF6A54;
+background: -webkit-linear-gradient(top, #FF6A54, #FF3059);
+background: -moz-linear-gradient(top, #FF6A54, #FF3059);
+background: linear-gradient(to bottom, #FF6A54, #FF3059);
+border:none;
+color:white;
+border-radius: 9px;
+  color:white;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  margin-top:5vh;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center p {
+  font-size:60px;
+  color:white;
+  font-family: 'Roboto Thin';
+  font-weight: 500;
+}
+
+/* .center button {
+  border-radius: 9px;
+  color:white;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  margin-top:5vh;
+} */
