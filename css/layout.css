@@ -3,7 +3,12 @@
     padding-right:30vh;
     margin:0 auto;
 } */
-
+.services{
+  background-color: #fff;
+}
+.mobile {
+  background-color: #fff;
+}
 .sidePad {
         padding-left: 30vh;
           padding-right:30vh;

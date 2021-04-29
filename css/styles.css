@@ -5,6 +5,7 @@ body {
   font-family: "Roboto", Arial;
   background-color: #fff;
 }
+
 .centerThis{
   text-align: center;
 }
@@ -271,6 +272,7 @@ li {
 }
 .team {
   text-align: center;
+  background-color: #fff;
  }
  .team h3{
    font-size: 32px;
@@ -348,4 +350,42 @@ height:50%;
 
 .quotes .nextIcon {
   padding-left:2vw;
+}
+.subscribe {
+  height:20vh;
+  color:white;
+  background:#233537;
+  padding-top:10vh;
+}
+.subscribe h3 {
+  font-family: 'Roboto Light';
+}
+.subscribeBtn {
+  color:white;
+  border:1px solid #64F6C8;
+  padding:10px 35px;
+  background-color: #233537;
+  margin-top: 5vh;
+}
+.aboutSite{
+  height:33vh;
+}
+
+
+.footer {
+  text-align: center;
+  height:10vh;
+  background-color: #233537;
+  color:white;
+  position:fixed;
+  z-index:-1;
+  bottom:0;
+  width:100%;
+}
+.footer h5{
+  padding-top:5vh;
+}
+.footer a{
+  text-decoration: none;
+  color:#10CAB7;
 }
