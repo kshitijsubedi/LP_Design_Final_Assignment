@@ -7,6 +7,20 @@
 .sidePad {
         padding-left: 30vh;
           padding-right:30vh;
-          padding-top:3vh;
-          padding-bottom: 5vh;
+}
+.header{
+  padding-top:3vh;
+  padding-bottom: 5vh;
+}
+.services {
+  padding-top:13vh;
+  padding-bottom: 13vh;
+}
+.serviceContainer {
+  display: table;
+}
+
+.serviceItems {
+  display: table-cell;
+  text-align: center;
 }

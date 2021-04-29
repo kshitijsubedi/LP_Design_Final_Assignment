@@ -5,6 +5,12 @@ body {
   font-family: "Roboto", Arial;
   background-color: #fff;
 }
+.centerThis{
+  text-align: center;
+}
+.centerItem {
+  display: inline-block;
+}
 
 .topnav {
   overflow: hidden;
@@ -89,11 +95,58 @@ border-radius: 9px;
   font-weight: 500;
 }
 
-/* .center button {
-  border-radius: 9px;
+button a {
   color:white;
-  text-align: center;
-  padding: 20px 40px;
   text-decoration: none;
-  margin-top:5vh;
-} */
+}
+
+.serviceItems h3 {
+  font-size: 15px;
+  padding:3vh;
+}
+.serviceItems p {
+  font-size: 13px;
+  color:gray;
+}
+
+
+.browser {
+  height:80vh;
+  text-align: center;
+  background: #FF6A54;
+  background: -webkit-linear-gradient(top, #FF6A54, #FF3059);
+  background: -moz-linear-gradient(top, #FF6A54, #FF3059);
+  background: linear-gradient(to bottom, #FF6A54, #FF3059);
+}
+.browser h6 {
+  padding-top:10vh;
+  padding-bottom: 5vh;
+  color:white;
+  font-size: 32px;
+}
+.browser p {
+  font-size: 13px;
+  color:white;
+  font-family: 'Roboto Thin';
+  padding-bottom: 15vh;
+  padding-left:25%;
+  padding-right: 25%;
+}
+.browser img{
+  width: 50%;
+}
+
+.mobile{
+  padding-top:10vh;
+}
+.mobile img{
+  float:left;
+}
+.mobile .description h3{
+  font-size: 40px;
+  font-family: 'Roboto Regular';
+}
+.mobile p {
+  color:gray;
+  font-size:15px;
+}

@@ -6,7 +6,3 @@ function myFunction() {
       x.className = "topnav";
     }
   }
-function navClicked() {
-  var x = document.getElementById("myTopnav");
-  
-}
