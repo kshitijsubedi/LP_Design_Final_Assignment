@@ -168,5 +168,20 @@
 .aboutSite p {
   color:#929BA0;
   font-size:11px
+}
+.clientCard p {
+  color:white;
+  font-size:11px;
+}
+.about p {
+  color:white;
+  padding-bottom: 10vh;
+  padding-left:20%;
+  padding-right: 20%;
+  font-size:11px;
+}
+.about .form .submitBtn {
+  margin:4vw;
+}
 
 }
