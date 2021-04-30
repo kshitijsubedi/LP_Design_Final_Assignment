@@ -9,23 +9,24 @@
 .mobile {
   background-color: #fff;
 }
-.sidePad {
-        padding-left: 30vh;
-          padding-right:30vh;
-}
+
 .header{
   padding-top:3vh;
   padding-bottom: 5vh;
 }
 .services {
-  padding-top:13vh;
-  padding-bottom: 13vh;
+  padding-top:5vh;
+  padding-bottom: 5vh;
 }
 .serviceContainer {
-  display: table;
+  display: block;
+  text-align:center;
 }
 
 .serviceItems {
-  display: table-cell;
+  display: inline-block;
   text-align: center;
 }
+
+
+

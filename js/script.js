@@ -1,8 +1,18 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+
+function burger() {
+  const navbar = document.getElementById('myTopnav');
+
+  function openMobileNavbar() {
+    navbar.classList.add("opened");
   }
+  
+  function closeMobileNavbar() {
+    navbar.classList.remove("opened");
+  }
+  
+  if (navbar.classList.contains("opened")) {
+    closeMobileNavbar();
+  } else {
+    openMobileNavbar();
+  }
+}

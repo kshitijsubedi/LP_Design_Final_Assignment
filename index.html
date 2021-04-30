@@ -18,16 +18,26 @@
       <div class='logo'>
         <img src="../img/logo.png" alt="logo">
       </div>
+      <div class="icon" id="burger" onclick='burger()'>
+        <span class="burger-open">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+            <g fill="#252a32" fill-rule="evenodd">
+              <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+            </g>
+          </svg>
+        </span>
+      </div>
       <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">HOME</a>
-        <a href="#services">SERVICES</a>
-        <a href="#portfolio">PORTFOLIO</a>
-        <a href="#about">ABOUT</a>
-        <a href="#contact">CONTACT</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        </a>
+        <div class='navItems'>
+          <a href="#home" class="active">HOME</a>
+          <a href="#services">SERVICES</a>
+          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#about">ABOUT</a>
+          <a href="#contact">CONTACT</a>
+        </div>
       </div>
     </div>
+
     <div class='home greenGradient' id='home'>
       <div class=center>
         <p>Try Design, You'll Like It.</p>
@@ -68,7 +78,7 @@
 
 
     <!-- Browser Page -->
-    <div class='browser redGradient'>
+    <div class='browser redGradient '>
       <h6>The Design That Likes To Say Yes. </h6>
       <p>Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.</p>
       <img src='./img/BrowserMockups.png' alt='Browsers Mockups'/>
@@ -78,15 +88,15 @@
     <div class='mobile sidePad'>
       <div class='phoneImage'>
         <img src='./img/mobileGroup.png' alt='Mobile Mockups'/>
-      </div>
-
-      <div class='details'>
-      <h3>Fully Responsive</h3>
-      <p>
-        Eum cu tantas legere complectitur, hinc utamur ea eam. Lorem ipsum dolor sit amet, volumus temporibus definitionem id ius, vel ut magna timeam appareat, movet timeam maiorum an ius.<br>
-Sea libris dictas lucilius et. Ne cibo urbanitas pri, qui ad populo accusamus. Quod congue ea ius, nisl aperiri sit ut.
-      </p> 
-      <button class='redGrad' type="button"><a href='#contact' >ORDER ME ONE</a></button>
+        
+        <div class='details'>
+          <h3>Fully Responsive</h3>
+          <p>
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Lorem ipsum dolor sit amet, volumus temporibus definitionem id ius, vel ut magna timeam appareat, movet timeam maiorum an ius.<br>
+            Sea libris dictas lucilius et. Ne cibo urbanitas pri, qui ad populo accusamus. Quod congue ea ius, nisl aperiri sit ut.
+          </p> 
+          <button class='redGrad' type="button"><a href='#contact' >ORDER ME ONE</a></button>
+        </div>
       </div>
 
     </div>
@@ -288,7 +298,7 @@ Sea libris dictas lucilius et. Ne cibo urbanitas pri, qui ad populo accusamus. Q
          </div>
 
          <!-- Map Page -->
-        <div class='map sidePad'>
+        <div class='map'>
           <div class='mapImage'>
             <div class='mapCard greenGradient'>
               <p>Awesome Address 432 </p>
