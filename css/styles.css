@@ -161,7 +161,8 @@ button a {
   padding-right:3vw;
 }
 .mobile img{
-  width:50%;
+  width:auto;
+  height:auto;
   max-height:50vh;
   float:left;
   padding-right: 5vw;
@@ -536,7 +537,7 @@ padding: 20px 10vw 15px 30px;
 margin-top:10vh;
 font-family: 'Roboto Regular';
 font-size: 13px;
-margin-right: 33%;
+margin-right: 20%;
 }
 .mapCard p {
   padding-bottom: 15px;

@@ -4,16 +4,18 @@
     padding-left: 5vh;
       padding-right:5vh;
 }
+.redGrad {
+  border-radius: 9px;
+  color:white;
+  text-align: center;
+  padding: 20px 40px;
+}
   .center p {
     font-size: 60px;
   }
-  .serviceItems h3 {
-    font-size: 15px;
-    padding:3vh;
-  }
-  .serviceItems p {
-    font-size: 13px;
-    color:gray;
+  .services {
+    padding-top:13vh;
+    padding-bottom: 13vh;
   }
   .serviceContainer {
     display: table;
@@ -23,7 +25,69 @@
     display: table-cell;
     text-align: center;
   }
+  .serviceItems{
+    width:auto;
+    margin:1vh;
+  }
+  .serviceItems img {
+    width:auto;
+  }
+  .browser p {
+    font-size: 11px;
+  }
+  .mobile{
+    padding-top:10vh;
+    padding-bottom: 5vh;
+    height:55vh;
+  }
+  .mobile .phoneImage{
+    float:left;
+    padding-right:5vw;
+    padding-left: 15vw;
+  }
+  .mobile img{
+    height:auto;
+    width:auto;
+  }
+  .mobile .details h3{
+    font-size: 32px;
+    font-family: 'Roboto Light';
+    font-weight: 800;
 
+  }
+  .mobile p {
+    font-size:11px;
+  }
+  .portfolio h3{
+    font-size:32px;
+  }
+  .card {
+    width:30%
+  }
+  .statsItems p {
+    font-size:11px;
+  }
+  .teamCard{
+    width:22%;
+  }
+  .aboutSite {
+    padding-left:10vw;
+    padding-right: 10vw;
+  }
+  .modernDesign {
+    padding-left:10vw;
+    padding-right: 10vw;
+  }
+  .about {
+    padding-left:10vw;
+    padding-right: 10vw;
+    height:85vh;
+  }
+  .mapImage .mapCard {
+    margin-right:15%
+  }
+
+  
 }
 
 /* laptop/desktop */
