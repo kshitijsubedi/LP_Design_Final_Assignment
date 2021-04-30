@@ -113,5 +113,60 @@
   margin-left:.5vw;
   padding: 13px 20px;
 }
+ .topnav a{
+   border-radius: 9px;
+ } 
+ .center p{
+   font-size:60px;
+ }
+ .serviceItems h3{
+   font-size:15px
+ }
+ .serviceItems p{
+   font-size:11px;
+ }
+
+ .browser {
+   height:80vh
+ }
+ .browser h6{
+   font-size:28px;
+   font-family: 'Roboto Thin';
+   font-weight: bold;
+ }
+
+ .browser img {
+   width:auto;
+   margin:0 auto;
+   height:auto;
+ }
+ .desc {
+  padding: 35px 70px;
+  background-color: white;
+}
+.statsItems h3 {
+  font-size: 32px;
+}
+.statItems p{
+  font-size: 11px;
+}
+.team h3 {
+  font-size:32px;
+
+}
+.quoteIcon {
+  padding-top:10vh;
+}
+.subscribe  {
+  padding-top:10vh;
+}
+.aboutSite h6 {
+  font-size:18px;
+  padding-top:15vh;
+  padding-bottom:5vh;
+}
+.aboutSite p {
+  color:#929BA0;
+  font-size:11px
 
 }
